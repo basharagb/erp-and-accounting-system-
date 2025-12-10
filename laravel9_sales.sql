@@ -260,7 +260,7 @@ CREATE TABLE `admin_panel_settings` (
 --
 
 INSERT INTO `admin_panel_settings` (`id`, `system_name`, `photo`, `active`, `general_alert`, `address`, `phone`, `customer_parent_account_number`, `suppliers_parent_account_number`, `delegate_parent_account_number`, `employees_parent_account_number`, `production_lines_parent_account`, `added_by`, `updated_by`, `created_at`, `updated_at`, `com_code`, `notes`, `is_set_Batches_setting`, `Batches_setting_type`, `default_unit`) VALUES
-(1, 'عاطف سوفت للبرمجيات', '1667938745648.png', 1, NULL, 'سوهاج - كوبري النيل', '012659854', 3, 1, 8, 9, 34, 0, 1, '0000-00-00 00:00:00', '2023-04-18 05:24:05', 1, 'الاضافة بالمبيعات  ctrl او enter', 1, 2, 1);
+(1, 'بشار سوفت للبرمجيات', '1667938745648.png', 1, NULL, 'عمان - الأردن', '0799999999', 3, 1, 8, 9, 34, 0, 1, '0000-00-00 00:00:00', '2024-12-10 08:23:00', 1, 'نظام إدارة الموارد والمحاسبة - بشار سوفت', 1, 2, 1);
 
 -- --------------------------------------------------------
 

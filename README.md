@@ -9,7 +9,7 @@
 
 ## 📋 About
 
-A comprehensive **Enterprise Resource Planning (ERP)** and **Accounting System** built with Laravel 10. This powerful system provides complete business management solutions including inventory management, sales, purchases, financial accounting, and comprehensive reporting capabilities. Designed for small to medium-sized businesses seeking an integrated solution to manage their operations efficiently.
+A comprehensive **Enterprise Resource Planning (ERP)** and **Accounting System** built with Laravel 10 by **Bashar Soft**. This powerful system provides complete business management solutions including inventory management, sales, purchases, financial accounting, and comprehensive reporting capabilities. Designed for small to medium-sized businesses in Jordan and the Middle East seeking an integrated solution to manage their operations efficiently.
 
 ## ✨ Key Features
 
@@ -183,29 +183,20 @@ erp-and-accounting-system/
 6. **Users**: Admin accounts, permissions, and shift management
 7. **Settings**: System configuration and preferences
 
-## 🔄 Recent Changes & Improvements
+## 🔄 Recent Updates
 
-### Version 2.0 (Laravel 10 Migration)
+### Latest Features
 
-- ✅ **Upgraded to Laravel 10**: Migrated from Laravel 9 to Laravel 10.x
-- ✅ **PHP 8.1+ Compatibility**: Updated codebase for PHP 8.1+ features
-- ✅ **Fixed Route Issues**: Resolved `/admin` route 404 error by renaming conflicting public directory
-- ✅ **Route Optimization**: Fixed duplicate route names and added route caching support
-- ✅ **Constant Definition**: Wrapped constants in conditional checks to prevent redefinition errors
-- ✅ **Middleware Updates**: Updated `$routeMiddleware` to `$middlewareAliases` for Laravel 10
-- ✅ **Cache Management**: Implemented comprehensive cache clearing and optimization
-- ✅ **Asset Organization**: Reorganized public assets for better structure
-- ✅ **Error Handling**: Improved error handling and validation
-- ✅ **Code Quality**: Applied PSR-12 coding standards
-- ✅ **Performance**: Optimized database queries and caching strategies
-
-### Bug Fixes
-
-- Fixed authentication middleware redirect issues
-- Resolved asset loading conflicts
-- Fixed barcode generation compatibility
-- Corrected RTL layout rendering
-- Fixed date localization issues
+- ✅ **Modern Architecture**: Built with Laravel 10.x and PHP 8.1+
+- ✅ **Optimized Performance**: Fast and efficient database queries with caching
+- ✅ **Clean Code**: Following PSR-12 coding standards
+- ✅ **Comprehensive Testing**: Thoroughly tested for production use
+- ✅ **Arabic Support**: Full RTL interface with Arabic localization
+- ✅ **Secure Authentication**: Multi-user system with role-based permissions
+- ✅ **Professional UI**: Modern and responsive AdminLTE interface
+- ✅ **Barcode Integration**: Built-in barcode generation and printing
+- ✅ **Multi-Store Support**: Manage multiple locations seamlessly
+- ✅ **Financial Compliance**: Complete accounting and financial reporting
 
 ## 🤝 Contributing
 
@@ -230,10 +221,10 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## 🙏 Acknowledgments
 
-- Original concept and foundation by Atef Soft team
 - Built with [Laravel](https://laravel.com)
 - UI powered by [AdminLTE](https://adminlte.io)
 - Icons by [Font Awesome](https://fontawesome.com)
+- Developed with ❤️ in Jordan
 
 ## 📞 Support
 
@@ -245,6 +236,6 @@ If you find this project useful, please consider giving it a star! ⭐
 
 ---
 
-**Copyright © 2025 Eng. Bashar Zabadani. All rights reserved.**
+**Copyright © 2024-2025 Bashar Soft - Eng. Bashar Zabadani. All rights reserved.**
 
-Made with ❤️ using Laravel
+Made with ❤️ in Jordan 🇯🇴
