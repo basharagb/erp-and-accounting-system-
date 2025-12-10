@@ -52,7 +52,9 @@ use App\Http\Controllers\Admin\Permission_sub_menuesController;
 |
 */
 
-define('PAGINATION_COUNT', 11);
+if (!defined('PAGINATION_COUNT')) {
+    define('PAGINATION_COUNT', 11);
+}
 Route::group(['prefix' => 'admin', 'middleware' => 'auth:admin'], function () {
 Route::get('/', [DashboardController::class, 'index'])->name('admin.dashboard');
 Route::get('logout', [LoginController::class, 'logout'])->name('admin.logout');
@@ -345,13 +347,10 @@ Route::get('/SalesReturnInvoices/printsaleswina4/{id}/{size}', [SalesReturnInvoi
 /*  ═══════ ೋღ  sales Invoices   المبيعات                ღೋ ═══════        */
 
 /*  ═══════ ೋღ start  FinancialReportController تقاير الحسابات  ღೋ ═══════ */
-Route::get('/FinancialReport/supplieraccountmirror', [FinancialReportController::class, 'supplier_account_mirror'])->name('admin.FinancialReport.supplieraccountmirror');
-Route::post('/FinancialReport/supplieraccountmirror', [FinancialReportController::class, 'supplier_account_mirror'])->name('admin.FinancialReport.supplieraccountmirror');
-Route::get('/FinancialReport/customeraccountmirror', [FinancialReportController::class, 'customer_account_mirror'])->name('admin.FinancialReport.customeraccountmirror');
-Route::post('/FinancialReport/customeraccountmirror', [FinancialReportController::class, 'customer_account_mirror'])->name('admin.FinancialReport.customeraccountmirror');
+Route::match(['get', 'post'], '/FinancialReport/supplieraccountmirror', [FinancialReportController::class, 'supplier_account_mirror'])->name('admin.FinancialReport.supplieraccountmirror');
+Route::match(['get', 'post'], '/FinancialReport/customeraccountmirror', [FinancialReportController::class, 'customer_account_mirror'])->name('admin.FinancialReport.customeraccountmirror');
 Route::post('/FinancialReport/searchforcustomer', [FinancialReportController::class, 'searchforcustomer'])->name('admin.FinancialReport.searchforcustomer');
-Route::get('/FinancialReport/delegateaccountmirror', [FinancialReportController::class, 'delegate_account_mirror'])->name('admin.FinancialReport.delegateaccountmirror');
-Route::post('/FinancialReport/delegateaccountmirror', [FinancialReportController::class, 'delegate_account_mirror'])->name('admin.FinancialReport.delegateaccountmirror');
+Route::match(['get', 'post'], '/FinancialReport/delegateaccountmirror', [FinancialReportController::class, 'delegate_account_mirror'])->name('admin.FinancialReport.delegateaccountmirror');
 /*  ═══════ ೋღ end  FinancialReportController ღೋ ═══════  */
 
 /*  ═══════ ೋღ start  Services  ღೋ ═══════                      */

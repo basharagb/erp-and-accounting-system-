@@ -1,64 +1,250 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# ERP and Accounting System
 
 <p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
+  <img src="https://img.shields.io/badge/Laravel-10.x-FF2D20?style=for-the-badge&logo=laravel&logoColor=white" alt="Laravel 10">
+  <img src="https://img.shields.io/badge/PHP-8.1+-777BB4?style=for-the-badge&logo=php&logoColor=white" alt="PHP 8.1+">
+  <img src="https://img.shields.io/badge/MySQL-8.0+-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL">
+  <img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge" alt="License">
 </p>
 
-## About Laravel
+## 📋 About
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+A comprehensive **Enterprise Resource Planning (ERP)** and **Accounting System** built with Laravel 10. This powerful system provides complete business management solutions including inventory management, sales, purchases, financial accounting, and comprehensive reporting capabilities. Designed for small to medium-sized businesses seeking an integrated solution to manage their operations efficiently.
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+## ✨ Key Features
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+### 📦 Inventory Management
+- **Item Management**: Complete product catalog with categories, units of measure (UOM), and barcode generation
+- **Multi-Store Support**: Manage multiple warehouses/stores with real-time inventory tracking
+- **Stock Transfers**: Transfer inventory between stores with full audit trail
+- **Inventory Valuation**: Real-time stock valuation and balance reports
+- **Production Management**: Production orders, lines, exchange, and receiving
+- **Batch/Lot Tracking**: Track items by batch numbers with expiry dates
 
-## Learning Laravel
+### 💰 Sales Management
+- **Sales Invoices**: Create and manage sales invoices with multiple payment methods
+- **Sales Returns**: Process sales returns with automatic inventory adjustments
+- **Customer Management**: Comprehensive customer database with account statements
+- **Pricing Management**: Flexible pricing with support for different customer types
+- **Sales Reports**: Detailed sales analytics and performance reports
+- **Invoice Printing**: Professional invoice templates (A4 and thermal printer support)
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+### 🛒 Purchase Management
+- **Purchase Orders**: Create and track purchase orders from suppliers
+- **Purchase Returns**: Process general purchase returns
+- **Supplier Management**: Complete supplier database with categories
+- **Purchase Analytics**: Track purchase costs and supplier performance
+- **Approval Workflow**: Multi-level approval system for purchases
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+### 💳 Financial Accounting
+- **Chart of Accounts**: Flexible account structure with multiple account types
+- **Treasury Management**: Multiple cash registers/treasuries with shift management
+- **Collect Transactions**: Record customer payments and receipts
+- **Exchange Transactions**: Record supplier payments and disbursements
+- **Account Statements**: Detailed financial reports for customers, suppliers, and delegates
+- **Financial Reports**: Comprehensive financial reporting including mirror accounts
 
-## Laravel Sponsors
+### 👥 User & Access Management
+- **Multi-User Support**: Create and manage multiple admin accounts
+- **Role-Based Permissions**: Granular permission system with roles
+- **Shift Management**: Track user shifts with opening/closing balances
+- **Treasury Assignment**: Assign specific treasuries to users
+- **Store Assignment**: Assign specific stores to users
+- **Audit Trail**: Complete activity logging for accountability
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+### 📊 Reporting & Analytics
+- **Financial Reports**: Balance sheets, profit/loss, and account statements
+- **Inventory Reports**: Stock levels, movements, and valuation reports
+- **Sales Analytics**: Sales by item, customer, delegate, and time period
+- **Purchase Analytics**: Purchase analysis by supplier and item
+- **Custom Reports**: Flexible reporting with date range filters
 
-### Premium Partners
+### 🎯 Additional Features
+- **Delegate Management**: Sales representative tracking and commission management
+- **Services Management**: Service-based invoicing and orders
+- **Material Types**: Categorize sales materials for better organization
+- **Admin Panel Settings**: Customizable system settings and configurations
+- **RTL Support**: Full Arabic language support with RTL interface
+- **Responsive Design**: Mobile-friendly interface using AdminLTE
+- **Barcode Support**: Generate and print barcodes for inventory items
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
+## 🚀 Technology Stack
 
-## Contributing
+- **Framework**: Laravel 10.x
+- **PHP**: 8.1 or higher
+- **Database**: MySQL 8.0+
+- **Frontend**: AdminLTE 3.x (Bootstrap 4)
+- **Icons**: Font Awesome, Ionicons
+- **Barcode**: Milon Barcode Generator
+- **Authentication**: Laravel Sanctum
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+## 📥 Installation
 
-## Code of Conduct
+### Prerequisites
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+- PHP >= 8.1
+- Composer
+- MySQL >= 8.0
+- Node.js & NPM (for asset compilation)
 
-## Security Vulnerabilities
+### Steps
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/basharagb/erp-and-accounting-system-.git
+   cd erp-and-accounting-system-
+   ```
 
-## License
+2. **Install dependencies**
+   ```bash
+   composer install
+   npm install && npm run build
+   ```
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+3. **Environment configuration**
+   ```bash
+   cp .env.example .env
+   php artisan key:generate
+   ```
+
+4. **Configure database**
+   
+   Edit `.env` file:
+   ```env
+   DB_CONNECTION=mysql
+   DB_HOST=127.0.0.1
+   DB_PORT=3306
+   DB_DATABASE=erp
+   DB_USERNAME=root
+   DB_PASSWORD=your_password
+   ```
+
+5. **Import database**
+   ```bash
+   mysql -u root -p erp < laravel9_sales.sql
+   ```
+
+6. **Clear caches**
+   ```bash
+   php artisan optimize:clear
+   php artisan cache:clear
+   composer dump-autoload
+   ```
+
+7. **Start the development server**
+   ```bash
+   php artisan serve
+   ```
+
+8. **Access the application**
+   
+   Open your browser and navigate to: `http://127.0.0.1:8000/admin`
+
+## 🔐 Default Credentials
+
+```
+Username: admin
+Password: 123456
+```
+
+**⚠️ Important**: Change the default password immediately after first login!
+
+## 📚 Documentation
+
+### Project Structure
+
+```
+erp-and-accounting-system/
+├── app/
+│   ├── Http/Controllers/Admin/  # Admin controllers
+│   ├── Models/                   # Eloquent models
+│   └── Helpers/                  # Helper functions
+├── database/
+│   ├── migrations/               # Database migrations
+│   └── seeders/                  # Database seeders
+├── public/
+│   ├── assets/                   # Frontend assets
+│   └── admin-assets/             # Admin panel assets
+├── resources/
+│   └── views/admin/              # Blade templates
+├── routes/
+│   ├── admin.php                 # Admin routes
+│   └── web.php                   # Web routes
+└── storage/                      # File storage
+```
+
+### Key Modules
+
+1. **Dashboard**: Overview of business metrics and quick actions
+2. **Inventory**: Product management, categories, and stock control
+3. **Sales**: Invoice creation, customer management, and sales reports
+4. **Purchases**: Purchase orders, supplier management, and returns
+5. **Accounting**: Financial transactions, treasuries, and reports
+6. **Users**: Admin accounts, permissions, and shift management
+7. **Settings**: System configuration and preferences
+
+## 🔄 Recent Changes & Improvements
+
+### Version 2.0 (Laravel 10 Migration)
+
+- ✅ **Upgraded to Laravel 10**: Migrated from Laravel 9 to Laravel 10.x
+- ✅ **PHP 8.1+ Compatibility**: Updated codebase for PHP 8.1+ features
+- ✅ **Fixed Route Issues**: Resolved `/admin` route 404 error by renaming conflicting public directory
+- ✅ **Route Optimization**: Fixed duplicate route names and added route caching support
+- ✅ **Constant Definition**: Wrapped constants in conditional checks to prevent redefinition errors
+- ✅ **Middleware Updates**: Updated `$routeMiddleware` to `$middlewareAliases` for Laravel 10
+- ✅ **Cache Management**: Implemented comprehensive cache clearing and optimization
+- ✅ **Asset Organization**: Reorganized public assets for better structure
+- ✅ **Error Handling**: Improved error handling and validation
+- ✅ **Code Quality**: Applied PSR-12 coding standards
+- ✅ **Performance**: Optimized database queries and caching strategies
+
+### Bug Fixes
+
+- Fixed authentication middleware redirect issues
+- Resolved asset loading conflicts
+- Fixed barcode generation compatibility
+- Corrected RTL layout rendering
+- Fixed date localization issues
+
+## 🤝 Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+## 📝 License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## 👨‍💻 Developer
+
+**Eng. Bashar Zabadani**
+- 📧 Email: basharagb@gmail.com
+- 🐙 GitHub: [https://github.com/basharagb](https://github.com/basharagb)
+- 💼 LinkedIn: [Connect with me](https://linkedin.com/in/basharagb)
+
+## 🙏 Acknowledgments
+
+- Original concept and foundation by Atef Soft team
+- Built with [Laravel](https://laravel.com)
+- UI powered by [AdminLTE](https://adminlte.io)
+- Icons by [Font Awesome](https://fontawesome.com)
+
+## 📞 Support
+
+For support, email basharagb@gmail.com or open an issue in the GitHub repository.
+
+## ⭐ Star History
+
+If you find this project useful, please consider giving it a star! ⭐
+
+---
+
+**Copyright © 2025 Eng. Bashar Zabadani. All rights reserved.**
+
+Made with ❤️ using Laravel
